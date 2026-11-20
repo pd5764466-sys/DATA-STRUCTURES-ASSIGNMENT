@@ -1,0 +1,36 @@
+Q5 - SPLAY TREES
+
+Created two trees with 200 keys (1 to 200).
+Splay search demonstration: access 3, then 9.
+Root after accessing 3: 3
+Root after accessing 9: 9
+
+First 10 roots during skewed workload:
+Access 1 (key 7): root = 7
+Access 2 (key 1): root = 1
+Access 3 (key 2): root = 2
+Access 4 (key 2): root = 2
+Access 5 (key 3): root = 3
+Access 6 (key 9): root = 9
+Access 7 (key 2): root = 2
+Access 8 (key 1): root = 1
+Access 9 (key 6): root = 6
+Access 10 (key 4): root = 4
+
+Skewed workload (80% accesses to 5% of keys):
+Splay average nodes visited: 5.49
+AVL average nodes visited: 7.12
+Splay worst single access: 194 nodes
+AVL worst single access: 8 nodes
+
+Uniform workload (random keys):
+Splay average nodes visited: 9.07
+AVL average nodes visited: 6.77
+Splay worst single access: 23 nodes
+AVL worst single access: 8 nodes
+
+Sorted access test (1 to 200):
+Completed 200 sorted accesses.
+Root after sorted accesses: 200
+Splay tree search test: PASS
+AVL tree comparison test: PASS

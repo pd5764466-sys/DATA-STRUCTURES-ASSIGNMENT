@@ -1,0 +1,21 @@
+Q4 – RED-BLACK TREES
+
+Red-Black Tree insertion:
+After 10: 10(B) | valid: PASS
+After 20: 10(B) 20(R) | valid: PASS
+After 30: 10(R) 20(B) 30(R) | valid: PASS
+After 15: 10(B) 15(R) 20(B) 30(B) | valid: PASS
+After 25: 10(B) 15(R) 20(B) 25(R) 30(B) | valid: PASS
+After 5: 5(R) 10(B) 15(R) 20(B) 25(R) 30(B) | valid: PASS
+
+Smallest key (leftmost node): 5
+Tree height: 3
+Rotations for sample insertions: 1
+Red-Black properties verification: PASS
+
+Increasing-order insertion test (1 to 10000):
+Nodes inserted: 10000
+Tree height: 24
+Rotations: 9976
+Red-Black properties verification: PASS
+Smallest key: 1

@@ -1,0 +1,53 @@
+B-Tree insertion (minimum degree 2):
+
+After inserting 10:
+Level 0: [10]
+
+After inserting 20:
+Level 0: [10 | 20]
+
+After inserting 5:
+Level 0: [5 | 10 | 20]
+
+After inserting 6:
+Level 0: [10]
+Level 1: [5 | 6]
+Level 1: [20]
+
+After inserting 12:
+Level 0: [10]
+Level 1: [5 | 6]
+Level 1: [12 | 20]
+
+After inserting 30:
+Level 0: [10]
+Level 1: [5 | 6]
+Level 1: [12 | 20 | 30]
+
+After inserting 7:
+Level 0: [10]
+Level 1: [5 | 6 | 7]
+Level 1: [12 | 20 | 30]
+
+After inserting 17:
+Level 0: [10 | 20]
+Level 1: [5 | 6 | 7]
+Level 1: [12 | 17]
+Level 1: [30]
+
+Final B-Tree:
+Level 0: [10 | 20]
+Level 1: [5 | 6 | 7]
+Level 1: [12 | 17]
+Level 1: [30]
+B-Tree height (levels) = 2
+
+Search tests:
+Key 5: FOUND, node visits = 2
+Key 30: FOUND, node visits = 2
+Key 17: FOUND, node visits = 2
+Key 99: NOT FOUND, node visits = 2
+
+Disk-read comparison at 10 ms per read:
+B-Tree order 100 estimate: about 4 reads = about 40 ms
+Binary tree estimate for 5,000,000 keys: about 23 reads = about 230 ms

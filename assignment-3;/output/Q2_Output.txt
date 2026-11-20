@@ -1,0 +1,19 @@
+AVL tree after each insertion:
+After 10: 10
+After 20: 10 20
+After 30: 20 10 30
+After 40: 20 10 30 40
+After 50: 20 10 40 30 50
+After 25: 30 20 10 25 40 50
+
+Final preorder: 30 20 10 25 40 50
+height = 3
+Balance verification: PASS
+
+100,000 sorted keys:
+BST height = 100000
+AVL height = 17
+AVL rotations = 99983
+AVL balance verification: PASS
+BST insertion time = 43.316 seconds
+AVL insertion time = 0.046 seconds

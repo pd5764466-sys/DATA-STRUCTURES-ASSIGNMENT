@@ -1,0 +1,26 @@
+Q6 - TRIES
+
+PDF expected prefix counts:
+a:5 an:4 anu:2 b:1 z:0
+
+Search 'anand': FOUND
+Search 'arun': FOUND
+Search 'hasan': NOT FOUND
+
+Autocomplete for prefix 'an': anand anitha anu anusuya
+Autocomplete for prefix 'ar': arun
+
+Empty prefix count: 6
+Whole-word prefix 'anu' count: 2
+No-match prefix 'xyz' count: 0
+
+Delete 'anand': SUCCESS
+Search 'anand' after deletion: NOT FOUND
+Prefix 'an' count after deletion: 3
+
+Scale experiment (generated lowercase contact names):
+  500 names | build 0.47 ms | prefix 0.113 us/search | nodes 565 | trie approx 122040 bytes | sorted-array pointers 4000 bytes
+ 5000 names | build 7.26 ms | prefix 0.123 us/search | nodes 5564 | trie approx 1201824 bytes | sorted-array pointers 40000 bytes
+50000 names | build 62.45 ms | prefix 0.107 us/search | nodes 55563 | trie approx 12001608 bytes | sorted-array pointers 400000 bytes
+
+Trie test: PASS

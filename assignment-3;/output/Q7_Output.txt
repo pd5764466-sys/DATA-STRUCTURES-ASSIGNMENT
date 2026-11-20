@@ -1,0 +1,21 @@
+Q7 - DICTIONARY USING TRIE + SORTED ARRAY
+Dictionary loaded: 1000 words
+
+Exact lookup 'blw': FOUND
+Exact lookup 'zzzzz': NOT FOUND
+
+Autocomplete for prefix 'b': b ba baa bab bac bad bae baf bag bah bai baj bak bal bam ban bao bap baq bar 
+Autocomplete for prefix 'xyz': No suggestions
+
+Alphabetical range 'bdr' to 'bea': bdr bds bdt bdu bdv bdw bdx bdy bdz be bea 
+
+Performance test:
+100000 exact lookups: 0.409 ms (100000 found)
+10000 range start searches: 0.535 ms
+Trie nodes: 1001
+Approx. trie memory: 216216 bytes
+Sorted word array memory: 16000 bytes
+Combined estimated memory: 232216 bytes
+Verification: PASS
+
+Design: Trie for exact lookup/autocomplete; sorted array for alphabetical range listing.
