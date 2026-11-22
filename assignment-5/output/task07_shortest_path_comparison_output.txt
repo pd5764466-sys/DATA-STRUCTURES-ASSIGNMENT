@@ -1,0 +1,8 @@
+Compile: gcc -std=c11 -Wall -Wextra -O2 /mnt/data/Assignment-5-CO5/src/task07_shortest_path_comparison.c -o /mnt/data/Assignment-5-CO5/output/task07_shortest_path_comparison
+
+Run output:
+Source 0 distances (Dijkstra array):
+0 3 2 8 10 13 14 16 
+Floyd-Warshall row 0:
+0 3 2 8 10 13 14 16 
+Both methods should match.

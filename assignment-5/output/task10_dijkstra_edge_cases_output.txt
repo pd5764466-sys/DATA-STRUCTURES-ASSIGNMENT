@@ -1,0 +1,7 @@
+Compile: gcc -std=c11 -Wall -Wextra -O2 src/task10_dijkstra_edge_cases.c -o output/task10_dijkstra_edge_cases
+
+Run output:
+Unreachable test: vertex 3 = unreachable
+Negative-edge Dijkstra result to 1: 2
+Correct path 0->2->1 has cost: -5 (Dijkstra assumption violated)
+Large sum would overflow; skip addition

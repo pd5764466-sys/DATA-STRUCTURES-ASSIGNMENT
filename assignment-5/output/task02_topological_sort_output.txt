@@ -1,0 +1,5 @@
+Compile: gcc -std=c11 -Wall -Wextra -O2 /mnt/data/Assignment-5-CO5/src/task02_topological_sort.c -o /mnt/data/Assignment-5-CO5/output/task02_topological_sort
+
+Run output:
+Lease Power Racks Staff Network Launch 
+valid schedule

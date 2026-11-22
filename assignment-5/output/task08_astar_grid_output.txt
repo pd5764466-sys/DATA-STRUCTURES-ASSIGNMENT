@@ -1,0 +1,5 @@
+Compile: gcc -std=c11 -Wall -Wextra -O2 /mnt/data/Assignment-5-CO5/src/task08_astar_grid.c -o /mnt/data/Assignment-5-CO5/output/task08_astar_grid
+
+Run output:
+Dijkstra explored: 39
+A* explored: 31

@@ -1,0 +1,5 @@
+Compile: gcc -std=c11 -Wall -Wextra -O2 /mnt/data/Assignment-5-CO5/src/task06_dijkstra_difficult.c -o /mnt/data/Assignment-5-CO5/output/task06_dijkstra_difficult
+
+Run output:
+0 7 9 20 20 11 
+route to 4: 4 5 2 0
