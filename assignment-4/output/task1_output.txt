@@ -1,0 +1,13 @@
+Total registrations: 100000
+
+Poor Hash Function
+Table size: 1000
+Used buckets: 11
+Longest chain: 16667
+Average non-empty chain length: 9090.91
+
+Improved Hash Function
+Table size: 131071
+Used buckets: 28081
+Longest chain: 14
+Average non-empty chain length: 3.56

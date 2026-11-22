@@ -1,0 +1,12 @@
+Simulation: 50000 orders
+Placed: 50000 | Lookups found: 50000 | Cancelled: 5000
+Next assigned: Order 16439 (wait 118)
+Active orders in report: 44999
+Time (ms): place 2.39, lookup 0.17, cancel 0.03, assign 0.07, report 3.45
+
+Simulation: 100000 orders
+Placed: 100000 | Lookups found: 100000 | Cancelled: 10000
+Next assigned: Order 65639 (wait 118)
+Active orders in report: 89999
+Time (ms): place 3.55, lookup 0.38, cancel 0.06, assign 0.16, report 6.38
+
